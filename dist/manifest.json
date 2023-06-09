@@ -1,0 +1,39 @@
+{
+  "name": "MusicDEV",
+  "short_name": "MusicDEV",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  "orientation": "portrait-primary",
+  "icons":[
+    {
+      "src": "/RetoPWA_webreactiva/images/icons/musica_16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/RetoPWA_webreactiva/images/icons/musica_64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/RetoPWA_webreactiva/images/icons/musica_128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/RetoPWA_webreactiva/images/icons/musica_256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/audios",
+      "accept": {
+        "audio/mpeg": [".mp3"]
+      }
+    }
+  ]
+}
